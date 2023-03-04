@@ -14,4 +14,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.2s; /* Animation */
+}
+
+.gpt3__brand div:hover {
+  transform: scale(1.5);
 }
